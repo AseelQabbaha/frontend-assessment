@@ -29,7 +29,7 @@ export const columns: ColumnDef<TeamMember>[] = [
     accessorKey: "avatar",
     header: "Avatar",
     cell: ({ row }) => {
-      const avatar = row.original.avatar || "https://i.pravatar.cc/150";
+      const avatar = row.original.avatar || `https://ui-avatars.com/api/?name=${encodeURIComponent(row.original.name)}&size=150&background=6b7280&color=ffffff&bold=true`;
       return (
         <Image
           src={avatar}

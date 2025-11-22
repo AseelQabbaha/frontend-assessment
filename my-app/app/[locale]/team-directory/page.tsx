@@ -143,7 +143,7 @@ export default function TeamDirectoryPage() {
                   {t("emptyState")}
                 </p>
                 <p className="text-sm text-gray-500 dark:text-gray-500">
-                  {t("emptyState.description")}
+                  {t("emptyStateDescription")}
                 </p>
               </div>
             ) : (

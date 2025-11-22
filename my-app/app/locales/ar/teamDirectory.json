@@ -9,7 +9,7 @@
     "clearFilters": "مسح جميع الفلاتر"
   },
   "emptyState": "لا يوجد أعضاء فريق",
-  "emptyState.description": "حاول تعديل الفلاتر",
+  "emptyStateDescription": "حاول تعديل الفلاتر",
   "loadMore": "عرض المزيد",
   "error": {
     "title": "خطأ في تحميل أعضاء الفريق",

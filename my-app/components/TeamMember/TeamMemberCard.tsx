@@ -79,7 +79,7 @@ export default function TeamMemberCard({ member }: Props) {
               }}
             />
             <Image
-              src={member.avatar || "https://i.pravatar.cc/150"}
+              src={member.avatar || `https://ui-avatars.com/api/?name=${encodeURIComponent(member.name)}&size=150&background=6b7280&color=ffffff&bold=true`}
               alt={member.name}
               width={90}
               height={90}

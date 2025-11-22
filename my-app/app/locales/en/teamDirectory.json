@@ -9,7 +9,7 @@
     "clearFilters": "Clear all"
   },
   "emptyState": "No team members found",
-  "emptyState.description": "Try adjusting your filters",
+  "emptyStateDescription": "Try adjusting your filters",
   "loadMore": "Load more",
   "error": {
     "title": "Error loading team members",

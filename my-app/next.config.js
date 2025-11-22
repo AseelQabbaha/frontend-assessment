@@ -6,7 +6,7 @@ module.exports = withNextIntl({
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'i.pravatar.cc',
+        hostname: 'ui-avatars.com',
         port: '',
         pathname: '/**',
       },
