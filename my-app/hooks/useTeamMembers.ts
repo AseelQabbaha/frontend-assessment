@@ -24,7 +24,7 @@ type UseTeamMembersResult = {
 const DEFAULT_LIMIT = 9;
 
 export function useTeamMembers({ page = 1, limit = DEFAULT_LIMIT, role, search, enabled = true }: UseTeamMembersParams): UseTeamMembersResult {
-  const useMocks = process.env.NEXT_PUBLIC_USE_MOCKS === '1';
+  const useMocks = process.env.NEXT_PUBLIC_USE_MOCKS !== '0';
 
   if (useMocks) {
     const normalizedSearch = (search || '').trim().toLowerCase();

@@ -1,15 +1,18 @@
 {
-  "teamDirectory": {
-    "metadata": {
-      "title": "دليل الفريق",
-      "description": "تصفّح أعضاء الفريق"
-    },
-    "filters": {
-      "searchPlaceholder": "ابحث بالاسم...",
-      "roleFilter": "تصفية حسب الوظيفة",
-      "clearFilters": "مسح جميع الفلاتر"
-    },
-    "emptyState": "لا يوجد أعضاء فريق",
-    "loadMore": "عرض المزيد"
+  "metadata": {
+    "title": "دليل الفريق",
+    "description": "تصفّح أعضاء الفريق"
+  },
+  "filters": {
+    "searchPlaceholder": "ابحث بالاسم...",
+    "roleFilter": "تصفية حسب الوظيفة",
+    "clearFilters": "مسح جميع الفلاتر"
+  },
+  "emptyState": "لا يوجد أعضاء فريق",
+  "emptyState.description": "حاول تعديل الفلاتر",
+  "loadMore": "عرض المزيد",
+  "error": {
+    "title": "خطأ في تحميل أعضاء الفريق",
+    "message": "يرجى المحاولة مرة أخرى لاحقاً."
   }
 }

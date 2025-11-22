@@ -1,15 +1,18 @@
 {
-  "teamDirectory": {
-    "metadata": {
-      "title": "Team Directory",
-      "description": "Browse team members"
-    },
-    "filters": {
-      "searchPlaceholder": "Search by name...",
-      "roleFilter": "Filter by role",
-      "clearFilters": "Clear all"
-    },
-    "emptyState": "No team members found",
-    "loadMore": "Load more"
+  "metadata": {
+    "title": "Team Directory",
+    "description": "Browse team members"
+  },
+  "filters": {
+    "searchPlaceholder": "Search by name...",
+    "roleFilter": "Filter by role",
+    "clearFilters": "Clear all"
+  },
+  "emptyState": "No team members found",
+  "emptyState.description": "Try adjusting your filters",
+  "loadMore": "Load more",
+  "error": {
+    "title": "Error loading team members",
+    "message": "Please try again later."
   }
 }

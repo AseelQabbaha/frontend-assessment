@@ -1,6 +1,19 @@
-import {defineRouting} from 'next-intl/routing';
+import {getRequestConfig} from 'next-intl/server';
+import {routing} from './i18n/routing';
 
-export default defineRouting({
-  locales: ['en', 'ar'],
-  defaultLocale: 'en'
+export default getRequestConfig(async ({requestLocale}) => {
+  let locale = await requestLocale;
+
+  if (!locale || !routing.locales.includes(locale as any)) {
+    locale = routing.defaultLocale;
+  }
+
+  return {
+    locale,
+    messages: {
+      teamDirectory: (await import(`./app/locales/${locale}/teamDirectory.json`)).default
+    }
+  };
 });
+
+export {routing};
