@@ -22,14 +22,14 @@ const getAvatarUrl = (name: string, role: string): string => {
 
 export const mockTeamMembers: TeamMember[] = [
   { id: '1', name: 'John Smith', role: 'Admin', email: 'john.smith@example.com', avatar: getAvatarUrl('John Smith', 'Admin') },
-  { id: '2', name: 'Aseel Al-Mansouri', role: 'Agent', email: 'aseel@example.com', avatar: getAvatarUrl('Aseel Al-Mansouri', 'Agent') },
+  { id: '2', name: 'Aseel Qabbaha', role: 'Agent', email: 'aseel@example.com', avatar: getAvatarUrl('Aseel Qabbaha', 'Agent') },
   { id: '3', name: 'Hasan Ali', role: 'Creator', email: 'hasan.ali@example.com', avatar: getAvatarUrl('Hasan Ali', 'Creator') },
   { id: '4', name: 'Ahmed Hassan', role: 'Agent', email: 'ahmed.hassan@example.com', avatar: getAvatarUrl('Ahmed Hassan', 'Agent') },
   { id: '5', name: 'Shihab Ibrahim', role: 'Creator', email: 'shihab@example.com', avatar: getAvatarUrl('Shihab Ibrahim', 'Creator') },
   { id: '6', name: 'Sarah Johnson', role: 'Admin', email: 'sarah.johnson@example.com', avatar: getAvatarUrl('Sarah Johnson', 'Admin') },
-  { id: '7', name: 'Michael Brown', role: 'Agent', email: 'michael.brown@example.com', avatar: getAvatarUrl('Michael Brown', 'Agent') },
+  { id: '7', name: 'Mohammad Brown', role: 'Agent', email: 'michael.brown@example.com', avatar: getAvatarUrl('Michael Brown', 'Agent') },
   { id: '8', name: 'Emily Davis', role: 'Creator', email: 'emily.davis@example.com', avatar: getAvatarUrl('Emily Davis', 'Creator') },
-  { id: '9', name: 'David Wilson', role: 'Admin', email: 'david.wilson@example.com', avatar: getAvatarUrl('David Wilson', 'Admin') },
+  { id: '9', name: 'issa Wilson', role: 'Admin', email: 'david.wilson@example.com', avatar: getAvatarUrl('David Wilson', 'Admin') },
   { id: '10', name: 'Lisa Anderson', role: 'Agent', email: 'lisa.anderson@example.com', avatar: getAvatarUrl('Lisa Anderson', 'Agent') },
   { id: '11', name: 'James Taylor', role: 'Creator', email: 'james.taylor@example.com', avatar: getAvatarUrl('James Taylor', 'Creator') },
   { id: '12', name: 'Maria Garcia', role: 'Admin', email: 'maria.garcia@example.com', avatar: getAvatarUrl('Maria Garcia', 'Admin') },
